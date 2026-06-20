@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+    padding-bottom: 10px;
+}
+
+main {
+    max-width: 840px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.grid main {
+    order: 2;
+}
+
+.grid aside {
+    order: 1;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
+
+aside {
+    width: 20rem;
+    text-align: center;
+    position: relative;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box li {
+    padding: 10px;
+    text-align: left;
+}
+
+.box a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}

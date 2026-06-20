@@ -51,11 +51,10 @@
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
   "liveServer.settings.port": 5504,
-
   // disable copilot chat
-  "chat.agent.enabled": false,
-  "chat.disableAIFeatures": true,
-  "chat.commandCenter.enabled": false,
-  "inlineChat.accessibleDiffView": "off",
-  "terminal.integrated.initialHint": false
+  // "chat.agent.enabled": false,
+  // "chat.disableAIFeatures": true,
+  // "chat.commandCenter.enabled": false,
+  // "inlineChat.accessibleDiffView": "off",
+  // "terminal.integrated.initialHint": false
 }
